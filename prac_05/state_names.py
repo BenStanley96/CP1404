@@ -11,7 +11,7 @@ STATE_NAMES = {"QLD": "Queensland", "NSW": "New South Wales", "NT": "Northern Te
 for short_state, state in STATE_NAMES.items():
     print("{:3} is {}".format(short_state,state))
 
-
+# Works perfectly. COud have also done .upper() on lines 17 and 18.
 state = input("Enter short state: ").upper()
 while state != "":
     if state in STATE_NAMES:
